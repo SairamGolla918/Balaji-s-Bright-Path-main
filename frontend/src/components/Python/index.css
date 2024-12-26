@@ -1,0 +1,18 @@
+.python-bg{
+    min-height: 100vh;
+    padding: 130px 50px 100px 50px;
+    
+    background-image: linear-gradient(to bottom right, #ffe5d4, white, white),
+      url(https://wallpapercave.com/wp/wp1859057.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.link-style{
+  font-size: 18x;
+  color: black;
+  font-weight: 600;
+  text-decoration: none;
+}
+.link-style:hover{
+  color: rgb(7, 86, 233);
+}

@@ -1,0 +1,29 @@
+.python-bg{
+    min-height: 100vh;
+    padding: 130px 50px 100px 50px;
+    
+    background-color: whitesmoke;
+    background-size: cover;
+    background-position: center;
+}
+.display
+{
+  display:grid;
+
+  grid-template-columns: 6fr 1fr 1fr;
+  column-gap:5px;
+}
+.introduction
+{
+   border: 3px solid black;
+   border-radius:5px;
+    width : 400px !important; 
+   height: 200px !important;
+   
+  
+}
+.center
+{
+  text-align: center;
+  display:block;
+}

@@ -1,0 +1,85 @@
+.custom-navbar {
+    transition: background-color 0.3s ease;
+    height: 100px;
+    padding: auto;
+
+  }
+  
+  .custom-navbar.navbar-scroll {
+    background-color: white;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    animation-name: falling;
+    animation-duration: 0.5s;
+    animation-timing-function: cubic-bezier(0.645, 0.045, 0.355, 1);
+  }
+  
+  @keyframes falling {
+    0% {
+      opacity: 0;
+      transform: translateY(-50px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  .custom-navbar .navbar-brand {
+    transition: color 0.3s ease;
+  }
+  
+  .custom-navbar.navbar-scroll .navbar-brand {
+    color: #333;
+  }
+  
+  .menu-item {
+    margin-right: 30px;
+    color: rgb(96, 96, 96);
+    text-decoration: none;
+  }
+  .menu-item:hover{
+    color: #333;
+  }
+  
+  .menu-item a {
+    color: #333;
+    text-decoration: none;
+    position: relative;
+  }
+  
+  .menu-item a:hover {
+    color: #ff3366;
+  }
+  
+  .menu-item a:before  {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #ff3366;
+    visibility: hidden;
+    transform: scaleX(0);
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .menu-item a:hover:before {
+    visibility: visible;
+    transform: scaleX(1);
+  }
+  .logo{
+    height: 75px;
+    width: 90px;
+  }
+  .logout-button{
+    background-color: #0088ea;
+    color: white;
+    height: 35px;
+    width: 90px;
+    border: none;
+    border-radius: 5px;
+    font-weight: 500;
+    font-family: inherit;
+}
+  

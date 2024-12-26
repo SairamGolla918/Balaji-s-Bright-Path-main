@@ -1,0 +1,50 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    border: none;
+}
+.home-bg{
+    min-height: 100vh;
+    padding: 80px;
+   
+        background-image: linear-gradient(to bottom right,#FFE5D4,white,white ), url(https://wallpapercave.com/wp/wp1859057.jpg);
+        background-size: cover;
+        background-position: center;
+    
+      
+}
+.home-page-vid-1{
+    height: 450px;
+    width: 500px;
+}
+.login-button{
+    background-color: #0088ea;
+    color: white;
+    height: 40px;
+    width: 115px;
+    border: none;
+    border-radius: 5px;
+    font-weight: 500;
+    font-family: inherit;
+}
+.home-page-title{
+    line-height: normal;
+    font-size: 35px;
+    font-weight: 600;
+    font-family: sans-serif;
+}
+.login-container{
+  min-height: 50vh;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+.cards-header-home{
+    line-height: normal;
+    font-size: 30px;
+    font-weight: 600;
+    font-family: sans-serif;
+    width: 100%;
+    margin-bottom: 20px;
+ 
+}
+
